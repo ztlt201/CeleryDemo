@@ -13,6 +13,8 @@ sayhello.s("litao")()
 
 s = sayhello.s()
 async = s.apply_async(('litao',))
+
+print 'this is test'
 #
 '''
 names = [('litao',), ('tangjie',), ('haha',)]
